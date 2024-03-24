@@ -38,3 +38,6 @@ EXPOSE 80
 
 # The command to run our application
 CMD ["python", "app.py"]
+
+# Run uvicorn when the container launches
+CMD ["uvicorn", "api_service:app", "--host", "0.0.0.0", "--port", "80"]

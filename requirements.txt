@@ -1,3 +1,6 @@
 pandas
 psycopg2
 sqlalchemy
+fastapi
+pydantic
+uvicorn[standard]
